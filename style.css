@@ -1,0 +1,179 @@
+body{
+    background-color: #011101;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    margin: 0px;
+    background-color: black;
+}
+.navbar ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.navbar li{
+    color:white;
+    float: left;
+    padding:15px; 
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color:green;
+}
+.header:hover {
+    color:green;
+        }
+.circle3 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+main ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    
+    
+}
+main li{
+    float: left;
+    padding: 8px;
+    
+    
+}
+.square img{
+    height: 150px;
+    width: 150px;
+    border:2px solid yellow;
+    
+}
+.circle img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:2px solid yellow;
+}
+.circle3{
+    height: 10px;
+    width: 60px;
+    border-radius: 30%;
+    background-color: white;
+    color: black;
+} 
+
+.circle1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding:0px; 
+   
+} 
+
+.rectangle img{
+    height: 180px;
+    width: 150px;
+    border:2px solid yellow;
+
+    
+    
+}
+.square :hover {
+    color:green;
+        }
+.rectangle :hover {
+    color:green;
+        }
+
+.circle :hover {
+    color:green;
+        }
+.header{
+    color: white;
+    margin: 40px;
+    
+    
+
+}
+.show{
+
+   
+    float: right;
+    margin: 35px;
+    text-decoration: none;
+   
+    color:#bbb;
+    font-size: 13px;
+}
+ td a:hover{
+    color:green;
+}
+.name1{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.name2{
+    color:#bbb;
+    font-size: 13px;
+    
+}
+table{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+}
+.centernav{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.centernav ul{
+    
+    display:flex;
+    overflow: hidden;
+    text-align: center;
+}
+.centernav a{
+    text-decoration: none;
+    color:white;
+    
+}
+.centernav li{
+    color:white;
+    list-style-type: none;
+    float: center;
+    padding:2px; 
+    font-size: 20px;
+    
+}
+.centernav a:hover{
+    background-color: #002800;
+    color: black;
+   
+}
+
+.footer{
+    margin: 65px;
+    height: 100px;
+    width: 300px;
+    border-radius: 50%;
+    color: white;
+    background-color: #002800;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    border: 10px outset black;
+    
+}
